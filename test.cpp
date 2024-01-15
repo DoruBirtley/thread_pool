@@ -26,7 +26,7 @@ int main() {
         for (int i = 0; i < 10; ++i) {
             results.emplace_back(pool.Enqueue([i] {
                 function();
-                //                std::this_thread::sleep_for(std::chrono::milliseconds(distribution(engine) * 100));
+                // std::this_thread::sleep_for(std::chrono::milliseconds(distribution(engine) * 100));
                 std::this_thread::sleep_for(std::chrono::seconds(i));
                 return i * i;
             }));
