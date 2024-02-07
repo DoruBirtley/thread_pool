@@ -69,4 +69,4 @@ int main() {
 }
 ```
 #### cpu usage chart corresponding to the example:
-<img src="./images/vtune.jpg">
+<img src="./images/frame_graph.jpg">
